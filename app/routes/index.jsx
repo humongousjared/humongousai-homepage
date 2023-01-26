@@ -29,9 +29,6 @@ export default function Index() {
     <img className='mx-auto md:max-w-2xl w-full max-w-md' src='./images/vitruvian.gif' />
       <h1 className='absolute w-full text-5xl md:text-8xl lg:text-9xl top-1/2  md:left-[-4%] lg:left-[-24%] transform -translate-y-1/2 text-white uppercase bold' style={{'textShadow': '0 0 10px #3469c2, 0 0 20px #3469c2, 0 0 30px #71a3f6, 0 0 40px #71a3f6, 0 0 50px #5f92e9, 0 0 60px #5f92e9, 0 0 70px #5f92e9'}}>Humongous.ai</h1>
   </div>
-  <div className='mx-auto max-w-md md:max-w-2xl p-2'>
-    <p className='text-md md:text-lg text-slate-700'> Launched in 2022, humongous.ai is a startup studio focused on generative AI.</p>
-  </div>
   <div className='mx-auto p-2 max-w-md md:max-w-2xl'> 
     <h2 className='text-xl md:text-2xl text-slate-900'>Why have big ideas when they can be humongous?</h2>
     <div dangerouslySetInnerHTML={{__html: mailChimpForm}}></div>
